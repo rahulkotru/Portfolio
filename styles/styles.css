@@ -88,6 +88,16 @@ section {
           transform: translateY(0) scale(1);
 }
 
+.active-btn {
+  background-color: var(--color-secondary) !important;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+.active-btn i {
+  color: var(--color-white) !important;
+}
+
 .controls {
   position: fixed;
   z-index: 10;

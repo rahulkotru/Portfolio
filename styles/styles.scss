@@ -69,6 +69,13 @@ section{
     display: none;
     transform: translateY(0) scale(1);
 }
+.active-btn{
+    background-color:var(--color-secondary) !important;
+    transition: all .4s ease-in-out;
+    i{
+        color: var(--color-white) !important;
+    }
+}
 .controls{
     position: fixed;
     z-index: 10;
