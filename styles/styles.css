@@ -33,5 +33,33 @@ a {
   display: inline-block;
   text-decoration: none;
   color: inherit;
+  font-family: inherit;
+}
+
+header {
+  height: 100vh;
+}
+
+section {
+  min-height: 100vh;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  padding: 3rem 18 rem;
+}
+
+.section {
+  -webkit-transform: translate(-100%);
+          transform: translate(-100%);
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+  background-color: var(--color-primary);
+}
+
+.sec1 {
+  display: none;
+  -webkit-transform: translateY(0) scale(1);
+          transform: translateY(0) scale(1);
 }
 /*# sourceMappingURL=styles.css.map */
