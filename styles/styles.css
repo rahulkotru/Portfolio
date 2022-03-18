@@ -51,8 +51,8 @@ section {
 }
 
 .section {
-  -webkit-transform: translate(-100%);
-          transform: translate(-100%);
+  -webkit-transform: translateY(-100%) scale(0);
+          transform: translateY(-100%) scale(0);
   -webkit-transition: all .4s ease-in-out;
   transition: all .4s ease-in-out;
   background-color: var(--color-primary);
@@ -76,7 +76,7 @@ section {
   display: none;
   -webkit-transform: translateY(0) scale(1);
           transform: translateY(0) scale(1);
-  background-color: #92cd5a;
+  background-color: rgba(146, 205, 90, 0.849);
 }
 
 .sec4 {
@@ -90,6 +90,7 @@ section {
   display: none;
   -webkit-transform: translateY(0) scale(1);
           transform: translateY(0) scale(1);
+  background-color: slategray;
 }
 
 .active {
