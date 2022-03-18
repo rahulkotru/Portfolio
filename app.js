@@ -1,7 +1,7 @@
 const sections =document.querySelectorAll('.section');
 const sectBtns = document.querySelectorAll('.controls');
 const sectBtn = document.querySelectorAll('.control');
-const allSections = document.querySelectorAll('.main-content');
+const allSections = document.querySelector('.main-content');
 
 function PageTransitions(){
     for (let i=0; i< sectBtn.length;i++){
@@ -11,6 +11,7 @@ function PageTransitions(){
             this.className +=' active-btn';
         })
     }
+
     allSections.addEventListener('click', (e) =>{
         const id = e.target.dataset.id;
         if(id){
