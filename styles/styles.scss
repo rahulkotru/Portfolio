@@ -52,27 +52,27 @@ section{
 .sec1{
     display: none;
     transform: translateY(0) scale(1);
-    background-color: rgba(161,228,38,0.849);
+    
 }
 .sec2{
     display: none;
     transform: translateY(0) scale(1);
-    background-color: slateblue;
+    
 }
 .sec3{
     display: none;
     transform: translateY(0) scale(1);
-    background-color: rgba(146,205,90,0.849);
+    
 }
 .sec4{
     display: none;
     transform: translateY(0) scale(1);
-    background-color: rgb(194,205,90);
+    
 }
 .sec5{
     display: none;
     transform: translateY(0) scale(1);
-    background-color: slategray;
+    
 
 }
 
@@ -121,6 +121,28 @@ section{
             font-size: 1.2rem;
             color:var(--color-grey-2);
             pointer-events:none;
+        }
+    }
+}
+
+.header-content{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    height: 100%;
+    .left-header{
+        display: flex;
+        align-items: center;
+        position: relative;
+        .h-shape{
+            transition: all .4s ease-in-out;
+            width: 65%;
+            height: 100%;
+            background-color: var(--color-secondary);
+            position: absolute;
+            left: 0;
+            top: 0;
+            z-index: -1;
+            clip-path: polygon(0 0,46% 0, 79% 100%,0% 100%);
         }
     }
 }
