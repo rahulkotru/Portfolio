@@ -327,4 +327,11 @@ section {
 .main-title {
   text-align: center;
 }
+
+.main-title h2 {
+  position: relative;
+  text-transform: uppercase;
+  font-size: 4rem;
+  font-weight: 700;
+}
 /*# sourceMappingURL=styles.css.map */
