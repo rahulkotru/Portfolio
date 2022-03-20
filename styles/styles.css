@@ -323,4 +323,8 @@ section {
   -webkit-transition: all .4s ease-in;
   transition: all .4s ease-in;
 }
+
+.main-title {
+  text-align: center;
+}
 /*# sourceMappingURL=styles.css.map */
