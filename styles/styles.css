@@ -419,5 +419,8 @@ section {
   position: absolute;
   left: 0;
   top: 15px;
+  width: 2rem;
+  height: 2px;
+  background-color: var(--color-grey-5);
 }
 /*# sourceMappingURL=styles.css.map */
