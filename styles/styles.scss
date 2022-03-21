@@ -270,6 +270,28 @@ section{
                 border: 1px solid var(--color-secondary);
                 box-shadow: 1px 4px 15px rgba(0,0,0,.32);
             }
+            .abt-text{
+                padding: 1.5rem;
+                display: flex;
+                flex-direction: column;
+                .large-text{
+                    font-size: 3rem;
+                    font-weight: 700;
+                    color: var(--color-secondary);
+                }
+                .small-text{
+                    padding-left: 3rem;
+                    position: relative;
+                    text-transform: uppercase;
+                    font-size: 1.2rem;
+                    color: var(--color-grey-1);
+                    letter-spacing: 2px;
+                    &::before{
+                        content: '';
+                        
+                    }
+                }
+            }
         }
     }
 }
