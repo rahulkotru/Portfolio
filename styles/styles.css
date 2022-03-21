@@ -417,5 +417,7 @@ section {
 .about-container .right-about .about-item .abt-text .small-text::before {
   content: '';
   position: absolute;
+  left: 0;
+  top: 15px;
 }
 /*# sourceMappingURL=styles.css.map */
