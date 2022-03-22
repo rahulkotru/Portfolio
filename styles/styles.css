@@ -438,4 +438,18 @@ section {
   font-size: 2rem;
   text-transform: uppercase;
 }
+
+.port-text {
+  padding: 2rem 0;
+  text-align: center;
+}
+
+.portfolios {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2rem;
+  margin-top: 3rem;
+}
 /*# sourceMappingURL=styles.css.map */
