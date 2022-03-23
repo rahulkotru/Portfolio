@@ -457,7 +457,7 @@ section {
   position: relative;
 }
 
-.portfolios .portfolio-item img {
+.portfolios .portfolio-item image {
   width: 100%;
   height: 300px;
   -o-object-fit: cover;
