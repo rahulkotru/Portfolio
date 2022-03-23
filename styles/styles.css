@@ -486,6 +486,7 @@ section {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  opacity: 0;
 }
 
 .portfolios .portfolio-item .hover-item h3 {
@@ -530,5 +531,13 @@ section {
   font-size: 1.5rem;
   color: var(--color-white);
   margin: 0 1rem;
+}
+
+.portfolios .portfolio-item .hover-item .icons .icon:hover {
+  background-color: var(--color-white);
+}
+
+.portfolios .portfolio-item .hover-item .icons .icon:hover i {
+  color: var(--color-primary);
 }
 /*# sourceMappingURL=styles.css.map */
