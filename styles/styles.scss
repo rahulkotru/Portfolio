@@ -355,8 +355,16 @@ section{
                 display: flex;
                 justify-content: center;
                 align-items: center;
+                background-color: var(--color-primary);
+                border-radius: 50%;
+                    width: 50px;
+                    height: 50px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin: 0 1rem;
                 .icon{
-                    background-color: var(--color-primary);
+                    
                     border-radius: 50%;
                     width: 50px;
                     height: 50px;
@@ -368,7 +376,7 @@ section{
                     transition:all .4s ease-in-out ;
                     i{
                         font-size: 1.5rem;
-                        color: var(--color-white);
+                        color: var(--color-primary);
                         margin: 0 1rem;
                     }
                     &:hover{
