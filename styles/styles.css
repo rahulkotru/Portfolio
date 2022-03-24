@@ -557,4 +557,12 @@ section {
   -webkit-transform: scale(1);
           transform: scale(1);
 }
+
+.blogs {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2rem;
+}
 /*# sourceMappingURL=styles.css.map */
