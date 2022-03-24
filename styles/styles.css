@@ -564,5 +564,16 @@ section {
   -ms-grid-columns: (1fr)[3];
       grid-template-columns: repeat(3, 1fr);
   grid-gap: 2rem;
+  margin-top: 3rem;
+}
+
+.blogs .blog {
+  position: relative;
+  background-color: var(--color-grey-5);
+  border-radius: 5px;
+  -webkit-box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.1);
+          box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.1);
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
 }
 /*# sourceMappingURL=styles.css.map */
