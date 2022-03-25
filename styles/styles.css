@@ -638,4 +638,10 @@ section {
   display: flex;
   padding-top: 3.5rem;
 }
+
+.contact-content-con .left-contact {
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+}
 /*# sourceMappingURL=styles.css.map */
