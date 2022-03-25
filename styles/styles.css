@@ -613,4 +613,22 @@ section {
   padding: 1.1rem;
   border-top: 8px solid var(--color-secondary);
 }
+
+.blogs .blog h4 {
+  font-size: 1.5rem;
+  margin-bottom: .7rem;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+  cursor: pointer;
+}
+
+.blogs .blog h4:hover {
+  color: var(--color-secondary);
+}
+
+.blogs .blog p {
+  color: var(--color-grey-2);
+  line-height: 2rem;
+  padding-bottom: 1rem;
+}
 /*# sourceMappingURL=styles.css.map */
