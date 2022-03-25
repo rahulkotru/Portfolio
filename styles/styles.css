@@ -631,4 +631,11 @@ section {
   line-height: 2rem;
   padding-bottom: 1rem;
 }
+
+.contact-content-con {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 3.5rem;
+}
 /*# sourceMappingURL=styles.css.map */
