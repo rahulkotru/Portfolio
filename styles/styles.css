@@ -611,5 +611,6 @@ section {
 .blogs .blog .blog-text {
   margin-top: -7px;
   padding: 1.1rem;
+  border-top: 8px solid var(--color-secondary);
 }
 /*# sourceMappingURL=styles.css.map */
