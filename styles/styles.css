@@ -656,7 +656,7 @@ section {
   margin: 1.5rem 0;
 }
 
-.contact-content-con .right-contact .input-control input {
+.contact-content-con .right-contact .input-control input, .contact-content-con .right-contact .input-control textarea {
   border-radius: 30px;
   font-weight: inherit;
   font-size: inherit;
@@ -666,5 +666,7 @@ section {
   border: none;
   background-color: var(--color-grey-5);
   width: 100%;
+  color: var(--color-white);
+  resize: none;
 }
 /*# sourceMappingURL=styles.css.map */
