@@ -458,7 +458,10 @@ section{
         .input-control{
             margin: 1.5rem 0;
             input{
-                
+                border-radius: 30px;
+                font-weight: inherit;
+                font-size: inherit;
+                font-family: inherit;
             }
         }
     }

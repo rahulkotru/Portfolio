@@ -655,4 +655,11 @@ section {
 .contact-content-con .right-contact .input-control {
   margin: 1.5rem 0;
 }
+
+.contact-content-con .right-contact .input-control input {
+  border-radius: 30px;
+  font-weight: inherit;
+  font-size: inherit;
+  font-family: inherit;
+}
 /*# sourceMappingURL=styles.css.map */
