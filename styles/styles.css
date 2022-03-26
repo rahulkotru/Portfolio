@@ -661,5 +661,10 @@ section {
   font-weight: inherit;
   font-size: inherit;
   font-family: inherit;
+  padding: .8rem 1.1rem;
+  outline: none;
+  border: none;
+  background-color: var(--color-grey-5);
+  width: 100%;
 }
 /*# sourceMappingURL=styles.css.map */
