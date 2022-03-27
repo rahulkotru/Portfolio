@@ -471,5 +471,11 @@ section{
                 resize: none;
             }
         }
+        .i-c-2{
+            display: flex;
+            :last-child{
+                margin-left: 1.5rem;
+            }
+        }
     }
 }
