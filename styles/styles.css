@@ -645,6 +645,10 @@ section {
           flex: 2;
 }
 
+.contact-content-con .left-contact h4 {
+  margin-top: 1rem;
+}
+
 .contact-content-con .right-contact {
   -webkit-box-flex: 3;
       -ms-flex: 3;
