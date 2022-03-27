@@ -669,4 +669,23 @@ section {
   color: var(--color-white);
   resize: none;
 }
+
+.contact-content-con .right-contact .i-c-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.contact-content-con .right-contact .i-c-2 :last-child {
+  margin-left: 1.5rem;
+}
+
+.contact-content-con .right-contact .submit-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
 /*# sourceMappingURL=styles.css.map */
