@@ -647,6 +647,8 @@ section {
 
 .contact-content-con .left-contact h4 {
   margin-top: 1rem;
+  font-size: 2rem;
+  text-transform: uppercase;
 }
 
 .contact-content-con .right-contact {
