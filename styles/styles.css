@@ -651,6 +651,11 @@ section {
   text-transform: uppercase;
 }
 
+.contact-content-con .left-contact p {
+  margin: 1rem 0;
+  line-height: 2rem;
+}
+
 .contact-content-con .right-contact {
   -webkit-box-flex: 3;
       -ms-flex: 3;
