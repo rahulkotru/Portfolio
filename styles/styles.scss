@@ -473,7 +473,8 @@ section{
                     display:grid;
                     grid-template-columns: 40px;
                     i{
-                        
+                        display: flex;
+                        align-items: center;
                     }
                 }
             }
