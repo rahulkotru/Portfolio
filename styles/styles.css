@@ -676,6 +676,8 @@ section {
 .contact-content-con .left-contact .contact-info .contact-item .icon {
   display: -ms-grid;
   display: grid;
+  -ms-grid-columns: 40px;
+      grid-template-columns: 40px;
 }
 
 .contact-content-con .right-contact {
