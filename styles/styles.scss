@@ -487,6 +487,8 @@ section{
                 display: flex;
                 align-items: center;
                 color: var(--color-white);
+                background-color: var(--color-grey-5);
+                cursor: pointer;
             }
         }
     }
