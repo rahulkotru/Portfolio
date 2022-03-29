@@ -726,6 +726,12 @@ section {
   color: var(--color-primary);
 }
 
+.contact-content-con .left-contact .contact-icon a i {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .contact-content-con .right-contact {
   -webkit-box-flex: 3;
       -ms-flex: 3;
