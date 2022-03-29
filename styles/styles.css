@@ -710,6 +710,7 @@ section {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  width: 50px;
 }
 
 .contact-content-con .right-contact {
