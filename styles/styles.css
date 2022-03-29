@@ -718,6 +718,14 @@ section {
   transition: all .4s ease-in-out;
 }
 
+.contact-content-con .left-contact .contact-icon a:hover {
+  background-color: var(--color-secondary);
+}
+
+.contact-content-con .left-contact .contact-icon a:hover i {
+  color: var(--color-primary);
+}
+
 .contact-content-con .right-contact {
   -webkit-box-flex: 3;
       -ms-flex: 3;
