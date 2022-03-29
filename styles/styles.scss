@@ -495,6 +495,12 @@ section{
                 border-radius: 50%;
                 margin: 0 .4rem;
                 transition: all .4s ease-in-out;
+                &:hover{
+                    background-color: var(--color-secondary);
+                    i{
+                        color: ;
+                    }
+                }
             }
         }
     }
