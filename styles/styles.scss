@@ -134,6 +134,9 @@ section{
     background-color: var(--color-grey-4);
     cursor: pointer;
     position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
