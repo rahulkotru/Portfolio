@@ -129,6 +129,14 @@ section{
     padding: 1rem;
     cursor: pointer;
     background-color: var(--color-grey-4);
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: .7rem 0;
+    box-shadow: 0 3px 15px rgba(0,0,0,.1);
 }
 
 
