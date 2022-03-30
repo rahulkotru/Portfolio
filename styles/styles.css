@@ -193,6 +193,12 @@ section {
           box-shadow: 0 3px 15px rgba(0, 0, 0, 0.1);
 }
 
+.theme-btn i {
+  font-size: 1.2rem;
+  color: var(--color-grey-2);
+  pointer-events: none;
+}
+
 .header-content {
   display: -ms-grid;
   display: grid;
