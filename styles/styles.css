@@ -172,6 +172,10 @@ section {
   pointer-events: none;
 }
 
+.theme-btn {
+  padding: 1rem;
+}
+
 .header-content {
   display: -ms-grid;
   display: grid;
