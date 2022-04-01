@@ -832,7 +832,7 @@ section {
     padding: 0;
   }
   header .right-header {
-    padding: 0;
+    padding: 2rem !important;
   }
 }
 /*# sourceMappingURL=styles.css.map */
