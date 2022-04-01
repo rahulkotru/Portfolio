@@ -834,5 +834,9 @@ section {
   header .right-header {
     padding: 2rem !important;
   }
+  .controls {
+    top: auto;
+    bottom: 0;
+  }
 }
 /*# sourceMappingURL=styles.css.map */
