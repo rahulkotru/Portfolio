@@ -837,6 +837,10 @@ section {
   .controls {
     top: auto;
     bottom: 0;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
   }
 }
 /*# sourceMappingURL=styles.css.map */
