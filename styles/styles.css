@@ -687,6 +687,7 @@ section {
 }
 
 .blogs .blog .hover-item .icons {
+  color: #000;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -696,7 +697,7 @@ section {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: var(--color-grey-2);
+  background-color: var(--color-white);
   border-radius: 50%;
   width: 50px;
   height: 50px;
@@ -706,36 +707,11 @@ section {
   margin: 0 1rem;
 }
 
-.blogs .blog .hover-item .icons .icon {
-  border-radius: 50%;
-  width: 50px;
-  height: 50px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin: 0 1rem;
-  cursor: pointer;
-  -webkit-transition: all .4s ease-in-out;
-  transition: all .4s ease-in-out;
+.blogs .blog .hover-item .icons:hover {
+  color: var(--color-black);
 }
 
-.blogs .blog .hover-item .icons .icon i {
-  font-size: 1.5rem;
-  color: var(--color-primary);
-  margin: 0 1rem;
-}
-
-.blogs .blog .hover-item .icons .icon:hover {
-  color: var(--color-white);
-}
-
-.blogs .blog .hover-item .icons .icon:hover i {
+.blogs .blog .hover-item .icons:hover i {
   color: var(--color-secondary);
 }
 
