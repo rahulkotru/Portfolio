@@ -1,5 +1,4 @@
 
-
 *{
     margin: 0;
     padding: 0;
@@ -493,10 +492,11 @@ section{
             text-transform: uppercase;
         }
         p{
-            margin: 1rem 0;
+            margin: 1rem 2rem;
             line-height: 2rem;
         }
         .contact-info{
+            margin: 1rem 2rem;
             .contact-item{
                 display: flex;
                 align-items: center;
@@ -548,9 +548,9 @@ section{
     }
     .right-contact{
         flex: 3;
-        margin-left: 3rem;
+        margin-right: 3rem;
         .input-control{
-            margin: 1.5rem 0;
+            margin: 1.5rem 4.5rem;
             input,textarea{
                 border-radius: 30px;
                 font-weight: inherit;
@@ -572,6 +572,7 @@ section{
             }
         }
         .submit-btn{
+            margin: 1.5rem 4.5rem;
             display: flex;
             justify-content: flex-start;
         }
