@@ -711,11 +711,11 @@ section {
 }
 
 .blogs .blog .hover-item .icons:hover {
-  color: var(--color-grey-5);
+  background-color: var(--color-secondary);
 }
 
 .blogs .blog .hover-item .icons:hover i {
-  color: var(--color-secondary);
+  color: var(--color-primary);
 }
 
 .contact-content-con {

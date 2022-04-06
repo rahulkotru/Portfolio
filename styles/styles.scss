@@ -510,9 +510,9 @@ section{
                 display: flex;
                 margin:auto ;
                     &:hover{
-                        color: var(--color-grey-5);
+                        background-color: var(--color-secondary);
                         i{
-                            color: var(--color-secondary);
+                            color: var(--color-primary);
                         }
                     }
                 
