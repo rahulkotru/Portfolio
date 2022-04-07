@@ -7,21 +7,6 @@
 }
 
 :root {
-  --color-primary:#191d2b;
-  --color-secondary:#27AE60;
-  --color-white:#FFFFFF;
-  --color-black:#000;
-  --color-grey-1:#dbe1e8;
-  --color-grey-2:#b2becd;
-  --color-grey-3:#6c7983;
-  --color-grey-4:#454e56;
-  --color-grey-5:#2a2e35;
-  --color-grey-6:#12181b;
-  --br-sm-2:14px;
-  --box-shadow-1:0 3px 15px rgba(0,0,0,.3);
-}
-
-.light-mode {
   --color-primary:#FFFFFF;
   --color-secondary:#3cc5a7;
   --color-white:#454e57;
@@ -32,6 +17,23 @@
   --color-grey-4:#454e56;
   --color-grey-5:#f8f8f8;
   --color-grey-6:#12181b;
+  --color-grey-7:#f8f8f8;
+  --br-sm-2:14px;
+  --box-shadow-1:0 3px 15px rgba(0,0,0,.3);
+}
+
+.light-mode {
+  --color-primary:#191d2b;
+  --color-secondary:#f3a846;
+  --color-white:#FFFFFF;
+  --color-black:#000;
+  --color-grey-1:#dbe1e8;
+  --color-grey-2:#b2becd;
+  --color-grey-3:#6c7983;
+  --color-grey-4:#454e56;
+  --color-grey-5:#2a2e35;
+  --color-grey-6:#12181b;
+  --color-grey-7:#f8f8f8;
   --br-sm-2:14px;
   --box-shadow-1:0 3px 15px rgba(0,0,0,.3);
 }
@@ -183,7 +185,7 @@ section {
 
 .controls .control i {
   font-size: 1.2rem;
-  color: var(--color-grey-2);
+  color: var(--color-grey-7);
   pointer-events: none;
 }
 
@@ -478,6 +480,7 @@ section {
   line-height: 2rem;
   padding: 1rem;
   color: var(--color-grey-1);
+  text-align: justify;
 }
 
 .about-container .left-about h4 {
@@ -669,7 +672,6 @@ section {
   margin-bottom: .7rem;
   -webkit-transition: all .4s ease-in-out;
   transition: all .4s ease-in-out;
-  cursor: pointer;
 }
 
 .blogs .blog h4:hover {
@@ -680,6 +682,7 @@ section {
   color: var(--color-grey-2);
   line-height: 2rem;
   padding-bottom: 1rem;
+  text-align: center;
 }
 
 .blogs .blog .hover-item h3 {
@@ -708,6 +711,8 @@ section {
   height: 50px;
   display: flex;
   margin: auto;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
 }
 
 .blogs .blog .hover-item .icons:hover {
@@ -1006,6 +1011,7 @@ section {
   position: relative;
   padding-left: 3rem;
   border-left: 1px solid var(--color-grey-5);
+  margin-right: 2.5rem;
 }
 
 .timeline .timeline-item .tl-icon {
@@ -1029,6 +1035,7 @@ section {
 
 .timeline .timeline-item .tl-icon i {
   font-size: 1.3rem;
+  color: var(--color-grey-7);
 }
 
 .timeline .timeline-item .tl-duration {
@@ -1056,6 +1063,8 @@ section {
 
 .timeline .timeline-item p {
   color: var(--color-grey-2);
+  margin: auto;
+  text-align: justify;
 }
 
 @media screen and (max-width: 600px) {
