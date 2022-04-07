@@ -414,6 +414,7 @@ section {
   -ms-grid-columns: (1fr)[2];
       grid-template-columns: repeat(2, 1fr);
   grid-gap: 2rem;
+  row-gap: 1rem;
   margin-right: 8rem;
 }
 
