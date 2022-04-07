@@ -356,6 +356,17 @@ section{
             padding: 1rem;
             color: var(--color-grey-1);
             text-align: justify;
+            
+                
+            
+                
+                a:hover {
+                    font-size: 1.5rem;
+                    transition: all .3s ease-in-out;
+                    color: var(--color-secondary);
+                    border-bottom: dotted 1px var(--color-grey-4);
+                }
+            
         }
         h4{
             font-size: 2rem;

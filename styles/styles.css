@@ -483,6 +483,14 @@ section {
   text-align: justify;
 }
 
+.about-container .left-about p a:hover {
+  font-size: 1.5rem;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+  color: var(--color-secondary);
+  border-bottom: dotted 1px var(--color-grey-4);
+}
+
 .about-container .left-about h4 {
   font-size: 2rem;
   text-transform: uppercase;
